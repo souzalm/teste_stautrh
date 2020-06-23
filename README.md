@@ -6,3 +6,5 @@ Contém os arquivos de modelagem dos usuários (users.php), da formatação das 
 
 * Pasta Controller:
 Contém os arquivos de controle das rotas (método HTTP + endpoints) e de regras de negócios por meio dos arquivos users.php, login.php e db.php (este de conexão com o Banco de Dados).
+
+* Arquivo htaccess: Deve ser renomeado para .htaccess (com um ponto no início). Esse arquivo possui um ajuste para o header de Requisição HTTP a ser operada pelo Apache (MAMP).
