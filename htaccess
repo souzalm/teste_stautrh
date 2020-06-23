@@ -1,0 +1,3 @@
+php_flag display_errors on
+
+SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
