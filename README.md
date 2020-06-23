@@ -3,14 +3,14 @@ Repositório do teste de uma aplicação para um Sistema de Cadastro de Usuário
 
 * Endpoints:
 
-controller/users.php + POST = Criar um novo Usuário;
-controller/login.php + POST = Gerar um Token que será utilizado para autenticação das Requisições;
-controller/users.php?iduser=i + GET = Buscar um Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers);
-controller/users.php + GET = Buscar array de Usuários;
-controller/users.php?iduser=i + PUT = Atualizar um Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers);
-controller/users.php?iduser=i + DELETE = Deletar um Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers)
-controller/users.php?iduser=i + POST = Acrescentar drink_ml e incrementar o contador de consumo de água do Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers);
-controller/users.php?page=i + GET = Paginação de array de Usuários (sendo i o número inteiro referente a página a ser listada com até 20 usuários).
+** controller/users.php + POST = Criar um novo Usuário;
+** controller/login.php + POST = Gerar um Token que será utilizado para autenticação das Requisições;
+** controller/users.php?iduser=i + GET = Buscar um Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers);
+** controller/users.php + GET = Buscar array de Usuários;
+** controller/users.php?iduser=i + PUT = Atualizar um Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers);
+** controller/users.php?iduser=i + DELETE = Deletar um Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers)
+** controller/users.php?iduser=i + POST = Acrescentar drink_ml e incrementar o contador de consumo de água do Usuário com iduser = i (número inteiro referente ao índice criado na tabela tbusers);
+** controller/users.php?page=i + GET = Paginação de array de Usuários (sendo i o número inteiro referente a página a ser listada com até 20 usuários).
 
 * Pasta Model: 
 Contém os arquivos de modelagem dos usuários (users.php), da formatação das respostas de requisição HTTP (responses.php) e da modelagem dos dados da tabela do contador de consumo de água (drink.php).
