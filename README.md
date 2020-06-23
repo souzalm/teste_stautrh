@@ -22,4 +22,4 @@ Contém os arquivos de controle das rotas (método HTTP + endpoints) e de regras
 
 <b>* Arquivo usersdb.sql:</b> Deve ser utilizado para criação de Banco de Dados com três tabelas (tbusers, tbsessions, tbdrink) no MySQL.
 
-*** Foi utilizado o Apache e o MAMP assim como Postman para o desenvolvimento desse aplicação.
+*** Foi utilizado o Apache e o MAMP, assim como Postman para o desenvolvimento dessa aplicação.
